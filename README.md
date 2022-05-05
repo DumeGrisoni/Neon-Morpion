@@ -2,7 +2,7 @@
 ---
 ## Le but du jeux 
 
-**Le but du jeux est de réussir à aligner trois croix avant l'ordinateur.**
+Le but du jeux est de réussir à aligner trois croix avant l'ordinateur.
 ---
 ## Pourquoi le Morpion ?
 
