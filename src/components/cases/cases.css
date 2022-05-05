@@ -1,0 +1,35 @@
+
+.cases{
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 236px;
+  height: 236px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--case-color) 1px solid;
+  border-radius: 5px;
+  box-shadow: 0 0 0.1em white,
+  0 0 0.2em var(--case-color),
+  0 0 0.3em var(--case-color),
+  0 0 0.4em var(--case-color);
+  text-align: center;
+  margin: 0.6rem;
+  cursor: pointer;
+  transition: ease-in-out .3s;
+}
+.cases:hover {
+  border: var(--damier-cross-color) 1px solid;
+  transition: ease-in-out .3s;
+  box-shadow: 0 0 0.1em white,
+  0 0 0.2em var(--damier-cross-color),
+  0 0 0.3em var(--damier-cross-color),
+  0 0 0.4em var(--damier-cross-color);
+}
+.x{
+  color: var(--damier-cross-color);
+  text-shadow: var(--text-glow)
+}
+.y{
+  color: var(--circle-color);
+}

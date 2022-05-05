@@ -1,0 +1,15 @@
+.damier
+{
+  max-width: 780px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  border: var(--damier-cross-color) 1px solid;
+  border-radius: 5px;
+  box-shadow: 0 0 0.1em white,
+  0 0 0.2em var(--damier-cross-color),
+  0 0 0.3em var(--damier-cross-color),
+  0 0 0.4em var(--damier-cross-color),
+  0 0 0.8em var(--damier-cross-color),
+  0 0 1.2em var(--damier-cross-color);
+}
