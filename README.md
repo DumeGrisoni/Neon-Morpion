@@ -19,6 +19,7 @@ L'approche principale etait de commencer par utiliser le useState, puis une fois
 - La création d'une IA qui essaye de gagner à chaque fois.
 - L'utilisation des composants React pour une réutilisabilité.
 - Création d'une logique de condition de victoire.
+- 
 ---
 
 ## Les recherches
@@ -27,11 +28,13 @@ Afin de réussir le style de mon jeu, je me suis renseigner sur les box-shadow e
 J'ai également rechercher d'autres application utilisant le style *Néon*.
 
 ---
+
 ## Les difficultés rencontrées ##
 
 Lors de la phase de code j'ai rencontré différents freins à mon avancée, tel que la condition de victoire et le changement automatique de joueur.
 
 ---
+
 ## Les technologies utilisées
 
 Pour l'application en elle-même j'ai utilisé **React.js** pour son dynamisme ainsi que sa popularité. 
