@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Jeux du Morpion Style Néon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Le but du jeux 
 
-## Available Scripts
+Le but du jeux est de réussir à aligner trois croix avant l'ordinateur.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Pourquoi le Morpion ?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+J'ai décidé de créer un jeux de morpion afin de mettre en avant l'utilisation des Hooks de React.js.
+L'approche principale etait de commencer par utiliser le useState, puis une fois la fonctionnalité prête remplacer ce state par un state global avec Redux.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Autres points mis en avant
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- L'utilisation des variables Css et mise en place d'un style *Neon*.
+- La création d'une IA qui essaye de gagner à chaque fois.
+- L'utilisation des composants React pour une réutilisabilité.
+- Création d'une logique de condition de victoire.
+---
 
-### `npm run build`
+## Les recherches
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Afin de réussir le style de mon jeu, je me suis renseigner sur les box-shadow et text-shadow.
+J'ai également rechercher d'autres application utilisant le style *Néon*.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+## Les difficultés rencontrées ##
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Lors de la phase de code j'ai rencontré différents freins à mon avancée, tel que la condition de victoire et le changement automatique de joueur.
 
-### `npm run eject`
+---
+## Les technologies utilisées
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pour l'application en elle-même j'ai utilisé **React.js** pour son dynamisme ainsi que sa popularité. 
+L'application aurait fonctionnée avec un simple code Javascript, mais j'ai quand même voulu utilisé React et Redux pour mon challenge personnel.
+Pour le State j'ai utilisé **Redux** qui est le gestionnaire de State Global le plus connu sur React, j'ai choisis cette technologie car elle est fiable et est souvent mise a jour.
+Afin de générer des keys pour mes props j'ai installé *Uuid-React*, ce qui m'à permi de donner une clé a chaque case de mon Grid
